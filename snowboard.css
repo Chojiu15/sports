@@ -1,0 +1,415 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: 'XtreemFat';
+    src: url(polices/XtreemFat_PERSONAL_USE.ttf);
+}
+@font-face{
+    font-family: 'XtreemSlim';
+    src: url(polices/XtreemThin_PERSONAL_USE.ttf);
+}
+@font-face{
+    font-family: 'XtreemReg';
+    src: url(polices/XtreemMedium_PERSONAL_USE.ttf);
+}
+XtreemMedium_PERSONAL_USE.ttf
+
+
+.container{
+    display: block;
+    width: 90%;
+    text-align: justify;
+}
+
+img.intro{
+    display: inline;
+margin-bottom: 1vh;
+width: 50%;
+}
+
+
+
+p.air{
+    clear: both; 
+    margin-bottom: 7vh;
+}
+
+p {
+    font-size: 1.2em
+}
+
+/*--------menu---------*/
+
+nav{
+    font-family: 'XtreemFat', cursive, sans-serif;
+    position: sticky;
+    top: 0; 
+    z-index: 2;
+}
+
+
+ul.menu{
+    display: flex;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    padding: 0vh;
+    letter-spacing: 0;
+    font-size: 4.2vh;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+.menu ul li{
+        list-style: none;
+    }
+
+
+ul.menu a{
+    color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    line-height: 3.5vh;
+}
+
+ul.menu a:hover{
+    color: rgb(86, 160, 245);
+    box-sizing: border-box;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    line-height: 3.5vh;
+}
+
+a:hover h1, a:hover h4{
+    color: rgb(255, 0, 0);
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*-----------------*/
+
+h1.bigtitle{
+    position: absolute;
+    text-align: center;
+    padding-top: 1.5vw;
+    transform: translateX(29vw);
+    padding-bottom: 0vh;
+    font-family: 'XtreemFat';
+    font-size: 10vw;
+    z-index: 3;
+}
+
+h1{
+    position: absolute;
+    text-align: center;
+    padding-top: 4.5vw;
+    padding-left: 2vw;
+    padding-bottom: 0vh;
+    font-family: 'XtreemFat';
+    font-size: 4.2vw;
+    z-index: 3;
+}
+
+h4.bodyboard{
+    position: absolute;
+    text-align: center;
+    padding-top: 5.2vw;
+    transform: translateX(75vw);
+    padding-bottom: 0vh;
+    font-family: 'XtreemFat';
+    font-size: 3.5vw;
+    z-index: 3;
+}
+
+h4.wingsuit{
+    position: absolute;
+    text-align: center;
+    padding-top: 5.2vw;
+    transform: translateX(87vw);
+    padding-bottom: 0vh;
+    font-family: 'XtreemFat';
+    font-size: 3.5vw;
+    z-index: 3;
+}
+
+
+.main1{
+    position: relative;
+    width: 100%;
+    top: 0
+}
+
+h2{
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 7vh;
+    font-family: 'XtreemFat';
+    font-size: 4em;
+}
+
+h2#videos {
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 3vh;
+    font-family: 'XtreemFat';
+    font-size: 4em;
+}
+
+h3{
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 7vh;
+    font-family: 'XtreemReg';
+    font-size: 3em;
+}
+
+.gauche {
+    width: 20vw;
+    height: auto;
+    float: left;
+    margin-right: 2vh;
+}
+
+.droite {
+    width: 21vw;
+    height: auto;
+    float: right;
+    margin-left: 2vh;
+}
+
+.imagecentree img {
+    display: block;
+    width: 50%;
+   margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.imagecentree1 img {
+    display: block;
+    width: 45%;
+   margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.imagecentreeend img {
+    display: block;
+    width: 100vw;
+   margin-bottom: 0vh;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.imagecentreesmall {
+    width: 60%;
+    height: auto;
+}
+
+.centretexte{
+    text-align: center
+}
+
+#histoire{
+    padding-top: 13vh
+}
+
+#chronologie{
+    padding-top: 11vh
+}
+
+#types{
+    padding-top: 11vh
+}
+
+.interdit{
+    width: 5%;
+}
+
+.text-centre{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.center{
+    text-align: center;
+}
+
+.gaucheinterdit{
+    width: 5%;
+    height: auto;
+    float: left;
+    margin-left: 0%;
+    margin-right: 0;
+    margin-bottom: 2vh;
+}
+
+.droiteinterdit {
+    float: right;
+    width: 5%;
+    height: auto;
+    margin-left: 0%;
+
+}
+
+.frise img{
+    display: block;
+    width: 100%;
+   margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 0.2vw black;
+    border-radius: 30px;
+}
+
+
+/*media query*/
+
+@media (max-width: 800px) {
+
+    .gauche{
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-left: 0%;
+        margin-right: 0;
+        margin-bottom: 2vh;
+        text-align: center;
+    }
+
+    .droite {
+        width: 100%;
+        height: auto;
+        float: none;
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    .container{
+        display: block;
+        width: 90%;
+        text-align: justify;
+    }
+
+    .yt-container {
+        position:relative;
+        padding-bottom:56.25%;
+        padding-top:0px;
+        height:0;
+        overflow:hidden;
+        }
+    
+    .yt-container iframe, .yt-container object, .yt-container embed {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        }
+
+    .test{
+        text-align: center;
+    }
+
+    .droiteinterdit {
+        display: none;
+    }
+
+    .containercentre {
+        display: flex;
+        justify-content: center
+    }
+
+    .gaucheinterdit{
+        display: none;
+    }
+
+    .imagecentree1 img {
+        display: block;
+        width: 80%;
+       margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+/*fin du media query*/
+
+
+.item2{
+    text-align: justify;
+}
+
+
+.test{
+    text-align: center;
+    margin-left: 18%;
+    padding-top: 10vh;
+   
+}
+
+.yt-container {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:0px;
+    height:0;
+    overflow:hidden;
+    }
+
+.yt-container iframe, .yt-container object, .yt-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:80%;
+    height:80%;
+    }
+
+.footer {
+    padding: 1vh;
+    margin: 0px;
+    display: block;
+    background: black;
+    color: #fff;
+    text-align: center;
+}
+
+
+footer a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+footer a, 
+footer p{
+    font-size: 5vh;
+    font-family: 'XtreemFat';
+    margin-bottom: 0;
+}
+
+p.date {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vh
+}
+
+p.airend{
+    margin-top: 10vh
+}

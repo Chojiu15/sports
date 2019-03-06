@@ -1,0 +1,109 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: 'XtreemFat';
+    src: url(polices/XtreemFat_PERSONAL_USE.ttf);
+}
+
+@font-face{
+    font-family: 'XtreemSlim';
+    src: url(polices/XtreemThin_PERSONAL_USE.ttf);
+}
+
+footer{
+    display: block;
+    bottom: 0;
+    margin-top: 10vh
+
+}
+
+.footer {
+    padding: 1vh;
+    margin: 0px;
+    display: block;
+    background: black;
+    color: #fff;
+    text-align: center;
+}
+
+
+footer a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+footer a, 
+footer p{
+  font-size: 4vw;
+  font-family: 'XtreemFat';
+  line-height: 1vh;
+
+}
+
+p.date {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vw
+}
+
+.imagecentree img{
+    height: 20.47vw;
+    display: block
+}
+
+.boximages{
+    display: flex;
+    margin-top: 0vh;
+    margin-bottom: 5vh;
+    width: 100vw;
+    height: 50vh
+
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    margin-bottom: 0;
+    font-family: 'XtreemFat';
+    font-size: 10vh;
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+
+p.sport{
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'XtreemFat';
+    margin-top: 2vh;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+a.sporta:visited{
+    text-decoration: none;
+    color: black
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(30, 208, 240)
+}
+
+a.sporta:hover{
+    text-decoration: none;
+    color: red
+}
+
+
+
+.wilders {
+    letter-spacing: 0.2em;
+}

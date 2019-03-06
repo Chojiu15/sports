@@ -1,0 +1,104 @@
+
+.menu ul{
+    display: flex;
+    align-self:flex-end;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'XtreemFat';
+    font-size: 3vw;
+}
+header{
+    margin-top: -42px;
+}
+
+a:hover { 
+        background-color:red;
+      }
+
+
+.intro {
+    background-image: url(images/images00.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+  
+   height: 100%;
+    margin-top: 0;
+    padding-top: 90px;
+    padding-bottom: 27vh;
+    margin-bottom: 5vh
+}
+
+.intro h1{
+    transform: translateX(-23%) translateY(-20%);
+
+}
+    
+.imageflottante
+{
+	float:center;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+@font-face{
+    font-family: 'XtreemThin';
+    src: url(polices/XtreemThin_PERSONAL_USE.ttf);
+}
+
+@font-face{
+    font-family: 'XtreemFat';
+    src: url(polices/XtreemFat_PERSONAL_USE.ttf);
+}
+
+.article{
+    
+    text-align:center;
+    font-size: 80px;
+    font-family:'Xtreemthin';
+    text-transform: capitalize;   
+    height: 400px;
+    margin-bottom: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;  
+}
+   
+.video1{
+    display:flex;
+    justify-content: center
+}
+
+p{
+    font-family:'Amatic SC'; 
+    font-style: oblique	;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    padding-left:50px;
+    padding-right: 50px;
+}
+.footer{
+    display: flex;
+    margin:auto;
+    padding: auto;  
+    justify-content: space-evenly
+    
+}
+.footer ul{
+    
+    list-style: none;
+    transform:  translateY(250);
+    
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    }
+
+
+    /*footer*/
+

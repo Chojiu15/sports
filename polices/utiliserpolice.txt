@@ -1,0 +1,10 @@
+@font-face{
+    font-family: 'XtreemFat';
+    src: url(polices/XtreemFat_PERSONAL_USE.ttf);
+}
+
+et ensuite si tu veux l'appliquer a <p> par ex:
+
+p {
+    font-family: 'XtreemFat';
+}
